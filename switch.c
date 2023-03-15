@@ -6,7 +6,7 @@ main()
     printf("Enter any two numbers : \n");
     scanf("%d%d", &a,&b);
     printf("Enter your Choice : \n");
-    scanf("%c%c", &ch, &ch);
+    scanf("%c%c", &ch, &ch); #To ignore the enter 
     switch(ch)
     {
         case '+': printf("Sum of two numbers : %d\n", a+b);
